@@ -1,6 +1,6 @@
 function Footer({ copyrightYear }) {
   return (
-    <footer>
+    <footer className="footer">
       <p>ABC University</p>
       <p>Copyright © {copyrightYear} ABC University</p>
       <p>Contact: contact@abcuniversity.com</p>

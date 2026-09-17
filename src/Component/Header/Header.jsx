@@ -1,8 +1,10 @@
 function Header({ universityName, department }) {
   return (
-    <header>
-      <h1>{universityName}</h1>
-      <h3>{department}</h3>
+    <header className="header">
+      <div className="university">
+        <h1>{universityName}</h1>
+        <p>{department}</p>
+      </div>
 
       <nav>
         <a href="#">Home</a>

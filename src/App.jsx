@@ -4,7 +4,7 @@ import Footer from "./Component/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Header
         universityName="ABC University"
         department="Department of Computer Applications"
